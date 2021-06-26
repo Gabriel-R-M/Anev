@@ -23,7 +23,7 @@ const Header = () => {
       {nome ? (
         <Link to="cadastrar" style={{textDecoration: 'none'}} >
           <Button variant="contained" className="BTcad">
-            Cadastrar produto
+            + Produto
           </Button>
         </Link>
       ) : ''}
