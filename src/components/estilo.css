@@ -1,0 +1,59 @@
+.imagem{
+    align-items: center;
+    display: flex;
+    background-image: url('./image/jacare.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+.imagem2{
+    align-items: center;
+    display: flex;
+    background-image: url('./image/jacare2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.BTedit{
+  background: #4e54c8; 
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  
+  background: linear-gradient(to right, #8f94fb, #4e54c8); 
+  color: #fff;
+  border: 3px solid #eee;
+}
+
+.BTdel{
+    background: #A770EF;  
+    background: -webkit-linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);  
+    background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF); 
+    color: #fff;
+    border: 3px solid #eee;
+}
+
+.BTcad{
+    background: #fc4a1a;  
+    background: -webkit-linear-gradient(to right, #f7b733, #fc4a1a); 
+    background: linear-gradient(to right, #f7b733, #fc4a1a); 
+    color: #fff;
+    border: 3px solid #eee;
+}
+.BTetc{
+    background: #56ab2f;  
+    background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  
+    background: linear-gradient(to right, #a8e063, #56ab2f); 
+    color: #fff;
+    border: 3px solid #eee;
+}
+.centralizar{
+  text-align: center;
+}
+.fundopreto{
+  background: #d05d50c6;  
+    background: -webkit-linear-gradient(to right, #f5f183e2, #d05d50c6);  
+    background: linear-gradient(to right, #f5f183e2, #d05d50c6); 
+    color: #fff;
+    border-radius: 90%;
+}
+
