@@ -56,4 +56,25 @@
     color: #fff;
     border-radius: 90%;
 }
+.ml5{
+  margin-left: 5px !important;
+}
 
+.darkmode{
+  color: #fff !important;
+  background-color: #000;
+}
+
+.sempadding{
+  padding: 0 !important;
+}
+.fundooriginal{
+  background-color: #26c6d867 !important;
+}
+.fundobranco{
+  background-color: #fff !important;
+}
+body {
+  margin: 0;
+  background-color: #26c6d867;
+}

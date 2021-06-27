@@ -3,17 +3,17 @@ import {Button, Dialog, DialogActions, DialogContent, DialogContentText} from "@
 
 const Confirmacao = ({open, message, positive, negative, onClose, onAceept}) => {
   return (
-    <Dialog open={open}>
-      <DialogContent>
-        <DialogContentText id="alert-dialog-description">
+    <Dialog open={open} >
+      <DialogContent className="darkmode">
+        <DialogContentText id="alert-dialog-description" className="darkmode">
           {message}
         </DialogContentText>
       </DialogContent>
-      <DialogActions>
-        <Button onClick={onClose} color="primary">
+      <DialogActions className="darkmode">
+        <Button onClick={onClose} className="BTdel">
           {negative}
         </Button>
-        <Button onClick={onAceept} color="primary" autoFocus>
+        <Button onClick={onAceept} autoFocus className="BTcad">
           {positive}
         </Button>
       </DialogActions>

@@ -8,9 +8,8 @@ import './estilo.css';
 const useStyles = makeStyles((theme) => ({
   paper: {
     marginTop: 100,
-    marginLeft: 50,
-    marginRight: 50,
-    display: 'flex',
+    marginLeft: 25,
+    marginRight: 25,
     flexDirection: 'column',
     alignItems: 'center',
   },
@@ -53,11 +52,11 @@ const Login = () => {
   }
 
   return (
-    <Grid container component="main" style={{ height: '100vh' }} >
+    <Grid container component="main" style={{ height: '100vh' }} className="fundooriginal">
       <CssBaseline />
-      <Grid item xs={8} sm={8} md={5} component={Paper} elevation={6} square>
-        <div className={classes.paper}>
-          <Typography component="h1" variant="h5">
+      <Grid item xs={8} sm={8} md={5} component={Paper} elevation={6} square className="fundooriginal">
+        <div className={classes.paper} >
+          <Typography component="h1" variant="h5"  >
             Fazer o login
           </Typography>
           <form className={classes.form} className="login" onSubmit={handleOnSubmit}>

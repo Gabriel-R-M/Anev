@@ -5,10 +5,10 @@ import {Link, Redirect} from "react-router-dom";
 
 const Cadastrar = () => {
   const [nome, setNome] = useState('');
-  const [preco, setPreco] = useState(0);
+  const [preco, setPreco] = useState('');
   const [imagem, setImagem] = useState('');
   const [descricao, setDescricao] = useState('');
-  const [quantidade, setQuantidade] = useState(0);
+  const [quantidade, setQuantidade] = useState('');
   const [cadastrado, setCadastrado] = useState(false);
 
   const token = localStorage.getItem('token');
@@ -89,7 +89,7 @@ const Cadastrar = () => {
         <TextField
           required
           value={preco}
-          label="Preço"
+          label="Preço (R$ 0.00)"
           onChange={(e) => setPreco(e.target.value)}
         />
         <br />
@@ -129,6 +129,7 @@ const Cadastrar = () => {
             type="submit"
             variant="contained"
             className="BTetc"
+            fullWidth
           >
             Cancelar
           </Button>

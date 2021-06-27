@@ -11,7 +11,7 @@ import Cadastrar from "./cadastrar";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter> 
       <Switch>
         <Route path="/sair">
           <Sair />

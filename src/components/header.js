@@ -28,7 +28,7 @@ const Header = () => {
         </Link>
       ) : ''}
       <Link to={nome ? 'sair' : 'login'} style={{textDecoration: 'none'}} >
-        <Button variant="contained" className="BTetc">
+        <Button variant="contained" className="BTetc ml5">
           {nome ? 'Sair' : 'Logar'}
         </Button>
       </Link>

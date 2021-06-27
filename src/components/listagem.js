@@ -128,11 +128,11 @@ const Listagem = () => {
         &&
         <Confirmacao
           open={confirmar}
-          positive="Apagar"
-          negative="Cancelar"
+          positive="Sim"
+          negative="Não"
           onAceept={() => apagarProduto()}
           onClose={() => setConfirmar(false)}
-          message="Deseja realmente excluír o produto selecionado?"
+          message="Esta ação é irreversivel, tem certeza que deseja continuar?"
         />
       }
     </>
